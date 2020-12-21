@@ -10,8 +10,8 @@ set -o verbose
 GH_TOKEN=${GH_TOKEN:?'Must provide github token'}
 
 rev=$(git rev-parse --short HEAD)
-git_user="ÚFAL bot"
-git_email="lindat-technical@ufal.mff.cuni.cz"
+git_user="tabilab-dip"
+git_email="tabilab.dip@gmail.com"
 
 BRANCH=edge
 COMMIT_MSG="Build based on ${rev}"
@@ -31,7 +31,7 @@ if [ -z "$TRAVIS_TAG" ]; then
 
   git add -A .
   git commit -m "Rebuild Github pages at ${rev}"
-  git push --force -q "https://$GH_TOKEN@github.com/ufal/lindat-common.git" master:gh-pages > /dev/null 2>&1
+  git push --force -q "https://$GH_TOKEN@github.com/tabilab-dip/lindat-common.git" master:gh-pages > /dev/null 2>&1
 
   popd
 else
@@ -53,7 +53,7 @@ git config user.email "$git_email"
 
 touch .
 
-git remote add origin "https://$GH_TOKEN@github.com/ufal/lindat-common.git"
+git remote add origin "https://$GH_TOKEN@github.com/tabilab-dip/lindat-common.git"
 # Fetch remote refs to a specific branch, equivalent to a pull without checkout
 git fetch --update-head-ok origin $BRANCH:master
 # Make the current working tree the branch HEAD without checking out files

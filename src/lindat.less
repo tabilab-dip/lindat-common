@@ -42,8 +42,8 @@
 // }
 //
 // For new items just add items to both lists below.
-@menu-items:  home,          repository,        pmltq,        treex,         tools services,         events,        about;
-@menu-colors: @common-color, @repository-color, @pmltq-color, @common-color, @common-color, @common-color, @common-color;
+@menu-items:  home,          repository,        demo,     about;
+@menu-colors: @common-color, @repository-color, @common-color,    @common-color;
 
 /* The only two global things we have to set */
 body {
@@ -175,12 +175,16 @@ body {
   }
 }
 
-.lindat-logo {
-  .header-logo("./images/LINDAT-CLARIAH-cz-menu.png");
+.tabilab-logo-menu {
+  .header-logo("./images/tabilab_menu_logo.png");
 }
 
-.clarin-logo {
-  .header-logo("./images/clarin-logo-menu.png");
+.tabilab-logo {
+  .header-logo("./images/tabilab_logo.png");
+}
+
+.boun-logo{
+  .footer-logo("images/boun_logo.png", 72px, 72px);
 }
 
 .header-logo(@image) {
@@ -320,30 +324,6 @@ body {
   margin-bottom: 20px;
 }
 
-.lindat-clarinb-logo {
-  .footer-logo("images/clarinb.png", 176px, 41px)
-}
-
-.lindat-clarink-logo {
-  .footer-logo("images/clarink.png", 176px, 41px)
-}
-
-.lindat-cts-logo {
-  .footer-logo("images/cts.png", 90px, 90px);
-  background-size: 90px;
-  margin: 10px 0;
-}
-
-.lindat-logo-mono {
-  .footer-logo("images/LINDAT-CLARIAH-cz-black.png", 103px, 60px);
-}
-
-.lindat-msmt-logo {
-  .footer-logo("images/msmt-mono.png", 120px, 71px);
-  margin-top: 10px;
-  background-size: 120px;
-  background-position: left;
-}
 
 .lindat-copyright {
   padding: 5px;
