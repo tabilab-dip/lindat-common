@@ -2,7 +2,7 @@
   "name": "lindat-common",
   "repository": {
     "type": "git",
-    "url": "git://github.com/ufal/lindat-common.git"
+    "url": "git://github.com/tabilab-dip/lindat-common.git"
   },
   "version": "2.1.2",
   "main": [
