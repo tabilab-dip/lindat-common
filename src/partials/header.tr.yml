@@ -7,12 +7,13 @@ menu:
 - href: 'http://www.tabilab.cmpe.edu.tr'
   id: tabilab-home-item
   text: TABILAB
-- href: 'https://lindat.mff.cuni.cz/repository/xmlui/?locale-attribute=cs'
+- href: '/repository/xmlui/?locale-attribute=cs'
   id: lindat-repository-item
   text: Arşiv
 - href: 'https://www.boun.edu.tr'
   id: lindat-demo-item
   text: Demo
-- href: 'https://lindat.mff.cuni.cz/cs/o-lindat-clarin'
+- href: '/en/about-lindat-clarin'
   id: lindat-about-item
   text: Hakkında
+#https://lindat.mff.cuni.cz

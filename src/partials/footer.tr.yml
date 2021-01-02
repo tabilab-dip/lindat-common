@@ -9,7 +9,7 @@ column2:
   header: "Arşiv"
   items:
   - 'https://lindat.mff.cuni.cz/repository/xmlui/?locale-attribute=cs': "Ana sayfa"
-  - 'https://lindat.mff.cuni.cz/cs/o-lindat-clarin': "İletişim"
+  - 'https://lindat.mff.cuni.cz/en/about-lindat-clarin': "İletişim"
   - 'https://lindat.mff.cuni.cz/repository/xmlui/page/faq?locale-attribute=cs': "SSS"
   - 'https://lindat.mff.cuni.cz/repository/xmlui/page/about?locale-attribute=cs': "Hakkında"
 footer:

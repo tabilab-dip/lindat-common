@@ -52,7 +52,7 @@ function stylesheetConfig(options){
   var partialsPlugins = [];
   ['header', 'footer'].forEach(function (file) {
     [false, true].forEach(function (standalone) {
-      [false, 'en', 'cs'].forEach(function (language) {
+      [false, 'en', 'tr'].forEach(function (language) {
         partialsPlugins.push(generatePartial(file, standalone, language))
       });
     });

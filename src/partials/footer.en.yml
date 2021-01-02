@@ -9,7 +9,7 @@ column2:
   header: "Repository"
   items:
   - 'https://lindat.mff.cuni.cz/repository/xmlui/?locale-attribute=en': "Main"
-  - 'https://lindat.mff.cuni.cz/cs/o-lindat-clarin': "Contact"
+  - 'https://lindat.mff.cuni.cz/en/about-lindat-clarin': "Contact"
   - 'https://lindat.mff.cuni.cz/repository/xmlui/page/faq?locale-attribute=en': "FAQ"
   - 'https://lindat.mff.cuni.cz/repository/xmlui/page/about?locale-attribute=en': "About"
 footer:
