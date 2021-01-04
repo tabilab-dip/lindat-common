@@ -13,7 +13,7 @@ menu:
 - href: 'https://www.boun.edu.tr'
   id: lindat-demo-item
   text: Demo
-- href: '/en/about-lindat-clarin'
+- href: '/repository/xmlui/page/about?locale-attribute=en'
   id: lindat-about-item
   text: About
-  # https://lindat.mff.cuni.cz
+  

@@ -16,18 +16,18 @@
 // Large screen / wide desktop
 @container-lg: (1140px + @grid-gutter-width);
 
-@header-bg: #f0f0f0;
+@header-bg: #fafafa;
 @header-color: #000;
 
-@footer-bg: #F8F8F8;
+@footer-bg: #F9F9F9;
 @footer-color: #606060;
 @footer-border: #E0E0E0;
 @footer-link-color: #808080;
 @footer-header-border: #C0C0C0;
 
-@common-color: #ccab28;
-@repository-color: #7479b8;
-@pmltq-color: #292E99;
+@common-color: #12295D;
+@repository-color: #12295D;
+@pmltq-color: #12295D;
 
 // The menu colors and IDs
 // This will actually generate css for each menu item at the end of the file.
@@ -184,7 +184,7 @@ body {
 }
 
 .boun-logo{
-  .footer-logo("images/boun_logo.png", 72px, 72px);
+  .footer-logo("images/boun_logo.svg", 72px, 72px);
 }
 
 .header-logo(@image) {
@@ -332,7 +332,11 @@ body {
 
 // Logo mixin for images in footer
 .footer-logo(@image, @width, @height) {
-  background: url(@image) no-repeat center;
+  //background: url(@image) no-repeat center;
+  background-image: url(@image);
+  background-repeat: no-repeat;
+  background-position: 0px;
+  background-size: 100%;
   width: @width;
   height: @height;
   display: block;

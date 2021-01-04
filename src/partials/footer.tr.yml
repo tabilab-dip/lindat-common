@@ -12,6 +12,14 @@ column2:
   - 'https://lindat.mff.cuni.cz/en/about-lindat-clarin': "İletişim"
   - 'https://lindat.mff.cuni.cz/repository/xmlui/page/faq?locale-attribute=cs': "SSS"
   - 'https://lindat.mff.cuni.cz/repository/xmlui/page/about?locale-attribute=cs': "Hakkında"
+column3:
+  header: "İletişim"
+  items:
+    - raw: "Bilgisayar Mühendisliği Bölümü, Boğaziçi Üniversitesi"
+    - raw: "34342 Bebek, İstanbul, Türkiye"
+    - raw: "Telefon: +90 212 359 45 23/24"
+    - 'mailto:tabilab.dip@gmail.com': "Email: tabilab.dip@gmail.com"
 footer:
   - "Tabilab DIP"
-copyright: "Copyright (c) 2020 TABILAB"
+  footer:
+  - "Copyright (c) 2020 TABILAB, Boğaziçi Üniversitesi, Tüm Hakları Saklıdır.."

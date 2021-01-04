@@ -12,6 +12,13 @@ column2:
   - 'https://lindat.mff.cuni.cz/en/about-lindat-clarin': "Contact"
   - 'https://lindat.mff.cuni.cz/repository/xmlui/page/faq?locale-attribute=en': "FAQ"
   - 'https://lindat.mff.cuni.cz/repository/xmlui/page/about?locale-attribute=en': "About"
+
+column3:
+  header: "Contact"
+    - raw: "Department of Computer Engineering, Boğaziçi University"
+    - raw: "34342 Bebek, Istanbul, Turkey"
+    - raw: "Phone: +90 212 359 45 23/24"
+    - 'mailto:tabilab.dip@gmail.com': "Email: tabilab.dip@gmail.com"
+
 footer:
-  - "Tabilab DIP TODO"
-copyright: "Copyright (c) 2020 TABILAB"
+  - "Copyright (c) 2020 TABILAB, Bogazici University. All rights reserved.."

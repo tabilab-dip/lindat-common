@@ -21,7 +21,7 @@ describe('Lindat Common', function() {
     var menu = element(by.css('.lindat-menu'));
     expect(menu.getCssValue('height')).toBe('53px');
     var menuItems = element.all(by.css('.lindat-menu li'));
-    expect(menuItems.count()).toEqual(8);
+    expect(menuItems.count()).toEqual(4);
   });
 
   it('should have data-version', function (){
