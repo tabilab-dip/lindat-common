@@ -15,11 +15,9 @@ column2:
 column3:
   header: "İletişim"
   items:
-    - raw: "Bilgisayar Mühendisliği Bölümü, Boğaziçi Üniversitesi"
-    - raw: "34342 Bebek, İstanbul, Türkiye"
-    - raw: "Telefon: +90 212 359 45 23/24"
-    - 'mailto:tabilab.dip@gmail.com': "Email: tabilab.dip@gmail.com"
+  - raw: "Bilgisayar Mühendisliği Bölümü, Boğaziçi Üniversitesi"
+  - raw: "34342 Bebek, İstanbul, Türkiye"
+  - raw: "Telefon: +90 212 359 45 23/24"
+  - 'mailto:tabilab.dip@gmail.com': "Email: tabilab.dip@gmail.com"
 footer:
-  - "Tabilab DIP"
-  footer:
-  - "Copyright (c) 2020 TABILAB, Boğaziçi Üniversitesi, Tüm Hakları Saklıdır.."
+  - "Copyright (c) 2020 TABILAB, Boğaziçi Üniversitesi, Tüm Hakları Saklıdır."

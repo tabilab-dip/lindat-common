@@ -1,3 +1,4 @@
+
 ---
 column1:
   header: "Bogazici University"
@@ -15,10 +16,11 @@ column2:
 
 column3:
   header: "Contact"
-    - raw: "Department of Computer Engineering, Boğaziçi University"
-    - raw: "34342 Bebek, Istanbul, Turkey"
-    - raw: "Phone: +90 212 359 45 23/24"
-    - 'mailto:tabilab.dip@gmail.com': "Email: tabilab.dip@gmail.com"
+  items:
+  - raw: "Department of Computer Engineering, Boğaziçi University"
+  - raw: "34342 Bebek, Istanbul, Turkey"
+  - raw: "Phone: +90 212 359 45 23/24"
+  - 'mailto:tabilab.dip@gmail.com': "Email: tabilab.dip@gmail.com"
 
 footer:
-  - "Copyright (c) 2020 TABILAB, Bogazici University. All rights reserved.."
+  - "Copyright (c) 2020 TABILAB, Bogazici University. All rights reserved."
