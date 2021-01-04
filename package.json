@@ -1,12 +1,12 @@
 {
   "name": "lindat-common",
-  "version": "2.1.2",
+  "version": "2.1.4",
   "main": "public/js/angular-lindat.js",
-  "description": "Common Lindat Theme (header and footer)",
+  "description": "Common Tabilab Theme (header and footer)",
   "license": "MIT",
   "homepage": "https://lindat.mff.cuni.cz/",
   "bugs": {
-    "url": "https://github.com/ufal/lindat-common/issues"
+    "url": "https://github.com/tabilab-dip/lindat-common/issues"
   },
   "keywords": [
     "lindat",
@@ -18,6 +18,7 @@
     "url": "https://github.com/tabilab-dip/lindat-common.git"
   },
   "authors": [
+    "Tabilab <tabilab.dip@gmail.com>",
     "Amir Kamran <kamran@ufal.mff.cuni.cz >",
     "Ondřej Košarko <kosarko@ufal.mff.cuni.cz>",
     "Jozef Mišutka <misutka@ufal.mff.cuni.cz>",
