@@ -1,6 +1,6 @@
 {
   "name": "lindat-common",
-  "version": "2.1.3",
+  "version": "2.1.4",
   "main": "dist/public/js/angular-lindat.js",
   "description": "Common Tabilab Theme (header and footer)",
   "license": "MIT",
