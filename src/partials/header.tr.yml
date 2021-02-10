@@ -1,10 +1,9 @@
 ---
 menu:
-- href: 'http://www.tabilab.cmpe.edu.tr'
-  class: tabilab-logo-menu
-  id: tabilab-menu-logo-item
+- href: 'http://www.tabilab.cmpe.boun.edu.tr'
+  id: tabilab-menu-name-item
   text: TABILAB
-- href: 'http://www.tabilab.cmpe.edu.tr'
+- href: 'http://www.tabilab.cmpe.boun.edu.tr'
   id: tabilab-home-item
   text: TABILAB
 - href: '/repository/xmlui/?locale-attribute=cs'
